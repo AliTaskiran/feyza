@@ -1,4 +1,4 @@
-const messages = ["İyi ki", "Doğdun", "Aşkım", "Seni çooook(baya)", "Seviyorum"];
+const messages = ["İyi ki", "Tanıştık", "Canııııııım", "Arkadaşım", "İyi ki(!)","Varsın"];
 const messageElement = document.getElementById('message');
 const finalMessage = document.getElementById('final-message');
 
@@ -54,7 +54,7 @@ function changeImage() {
     imageTimeout = setInterval(() => {
         finalImage.src = `images/${imageIndex}.jpg`; // Resmi değiştir
         imageIndex++; // Görsel dizinini bir arttır
-        if (imageIndex > 3) { // Eğer 3'ten büyükse, 1'e geri döner
+        if (imageIndex > 4) { // Eğer 3'ten büyükse, 1'e geri döner
             imageIndex = 1;
         }
     }, 2000);
